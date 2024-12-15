@@ -4,6 +4,8 @@ The LogSeq Time Tracking Updater Plugin makes it easy to update your time tracki
 
 > Note: This plugin requires that you have Time Tracking enabled in your LogSeq settings. Please ensure it is activated before using the plugin.
 
+ <a href="https://buymeacoffee.com/kmlprtsng"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=kmlprtsng&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" /></a>
+
 ### Demo
 
 Type the `/Update time tracking` on the block that already has time tracking to update it's time tracking data. 
