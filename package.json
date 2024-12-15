@@ -1,0 +1,23 @@
+{
+  "name": "logseq-time-tracking-updater",
+  "version": "1.0.0",
+  "description": "This plugin allows the ability to update the time tracking data written by LogSeq",
+  "author": "Kamalpreet Chauhan",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "parcel ./index.html --public-url ./",
+    "build": "yarn clean && parcel build --public-url . --no-source-maps --no-cache index.html"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.17",
+    "parcel": "^2.9.3",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {},
+  "logseq": {
+    "id": "logseq-time-tracking-updater",
+    "main": "dist/index.html",
+    "icon": "./logo.png"
+  }
+}
